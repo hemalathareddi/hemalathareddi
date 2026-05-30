@@ -1,16 +1,24 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+def fun(x,y):
+    print(x,y)
+    return x+y
+print(fun(10,20))
+def great(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+print(great(75,77))
+def f1(*a):
+    return sum(a)
+x = f1(1,7,8,6,5,3,2,8)
+print(x)
+if (x & 1):
+    print("odd")
+else:
+    print("even")
+def fun4(x,y):
+    print (x+y)
+print(fun4(1,2))
+a = 7
+l = f"a:{a**a}"
+print(l)
