@@ -9,3 +9,8 @@ print(subtract(3,10))
 def bio(first_name,last_name,age):
     print(f"name: {first_name}{last_name}, age: {age}")
 bio("amar","sharma",21)
+def power(power,exponent):
+    return  power**exponent
+print(power(5,2))
+print(power(5,3))
+def connect(host,port=3306):
