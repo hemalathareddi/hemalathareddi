@@ -18,5 +18,10 @@ def discount_price(price, discount=10):
 
 print(discount_price(1000))
 print(discount_price(1000, 20))
+def create_profile(username, email, age):
+    print("Username:", username)
+    print("Email:", email)
+    print("Age:", age)
 
+create_profile(username="hema", email="hema@gmail.com", age=22)
 
